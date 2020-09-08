@@ -1,2 +1,1 @@
-Trying web development with the odin project
-
+Trying web development with the odin project.
