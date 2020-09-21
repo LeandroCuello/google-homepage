@@ -2,3 +2,40 @@
 body{
     font-family:'Open Sans', sans-serif;
 }
+.header{
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+}
+.header button{
+    border-radius: 3px;
+    color:white;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    line-height: 28px;
+    padding:0px 12px 0px 12px;
+}
+.header a{
+    color:black;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size:13px;
+    outline-width: 0px;
+    padding-left: 12px;
+}
+.header a:hover{
+    text-decoration: underline;
+    color:#609;
+}
+.google_apps{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url(/main_files/google_apps.png) no-repeat  center;
+}
+.google_apps:hover{
+    background: url(/main_files/google_apps_hover.png) no-repeat center; 
+}
